@@ -1,0 +1,21 @@
+{
+  "name": "fragment-ref",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "relay": "relay-compiler --src ./src --schema ./githubSchema.json",
+    "flow": "flow"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flow-bin": "^0.71.0",
+    "flow-typed": "^2.4.0",
+    "graphql": "^0.13.2",
+    "react": "^16.3.2",
+    "react-relay": "^1.6.0",
+    "relay-compiler": "^1.6.0"
+  }
+}
